@@ -19,3 +19,12 @@ def calculate_result(name, marks):
         status = "PASS"
     else:
         status = "FAIL"
+
+        student = {
+        "name": name,
+        "marks": marks,
+        "total": total,
+        "percentage": percentage,
+        "grade": grade,
+        "status": status
+    }
