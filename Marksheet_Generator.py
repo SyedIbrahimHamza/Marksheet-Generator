@@ -14,3 +14,8 @@ def calculate_result(name, marks):
         grade = "D"
     else:
         grade = "F"
+    
+    if percentage >= 50:
+        status = "PASS"
+    else:
+        status = "FAIL"
