@@ -1,3 +1,6 @@
+from unicodedata import name
+
+
 marks = []
 def calculate_result(name, marks):
     total = sum(marks)
@@ -40,3 +43,5 @@ subjects = ["Math", "Physics", "Chemistry", "English", "Computer"]
 for subject in subjects:
     mark = int(input(f"Enter {subject} marks: "))
     marks.append(mark)
+
+calculate_result(name, marks)
